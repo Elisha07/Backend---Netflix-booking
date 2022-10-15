@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.content{
+    display: flex;
+    align-content: center;
+}
+
+#signin{
+    
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    font-size: 10px;
+    background: rgb(255,0,0);
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#signin a{
+    color: white;
+    text-decoration: none;
+}
+
+
