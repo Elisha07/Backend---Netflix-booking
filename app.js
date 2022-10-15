@@ -1,7 +1,11 @@
 const express =  require('express');
 const app = express()
 
-const PORT = 3300
+let port = process.env.PORT;
+if (port == null || port =="") {
+    port = 8000;
+}
+
 const fs = require ('fs')
 
 app.use(express.urlencoded())
@@ -51,4 +55,4 @@ ${newData}`
 
 
 
-app.listen(PORT)
+app.listen(port)
